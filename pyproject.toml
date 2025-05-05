@@ -10,3 +10,6 @@ authors = [{ name = "daaleoo" }]
 dependencies = [
     "windows-curses; sys_platform == 'win32'"
 ]
+
+[project.scripts]
+dvd-bounce = "annimation:main"
