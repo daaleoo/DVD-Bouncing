@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dvd-bouncing"
+version = "0.1.0"
+description = "DVD Bouncing animation in terminal"
+authors = [{ name = "daaleoo" }]
+dependencies = [
+    "windows-curses; sys_platform == 'win32'"
+]
